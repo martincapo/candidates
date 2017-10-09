@@ -10,5 +10,5 @@ require './filters'
 binding.pry
 
 pp @candidates
-puts ordered_by_qualifications(@candidates);
+puts qualified_candidates(@candidates);
 
